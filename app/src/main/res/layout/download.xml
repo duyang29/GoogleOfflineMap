@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- 下载路径 -->
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/path"/>
+    <EditText
+        android:id="@+id/path"
+        android:text="@string/downloadpath"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+    </EditText>
+    <!-- 下载按钮 -->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text='@string/downloadbutton'
+        android:id="@+id/button"/>
+    <!-- 进度条 -->
+    <ProgressBar
+        android:layout_width="fill_parent"
+        android:layout_height="20dip"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:id="@+id/downloadbar" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/resultView" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <!--解压按钮-->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text='@string/unzipbutton'
+        android:id="@+id/btn_unzip"/>
+    <!-- 进度条 -->
+    <ProgressBar
+        android:layout_width="fill_parent"
+        android:layout_height="20dip"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:id="@+id/progressbar_unzip" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/tv_unzip_result" />
+
+</LinearLayout>

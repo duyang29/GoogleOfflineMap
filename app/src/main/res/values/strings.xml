@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">OfflineGoogleMapDemo</string>
+    <string name="action_map_manage">地图管理</string>
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="path">下载路径</string>
+    <string name="downloadbutton">下载</string>
+    <string name="unzipbutton">解压</string>
+    <string name="sdcarderror">SDCard不存在或者写保护</string>
+    <string name="success">下载完成</string>
+    <string name="error">下载失败</string>
+    <!--<string name="downloadpath">http://www.winrar.com.cn/download/winrar-x64-540scp.exe</string>-->
+    <string name="downloadpath">http://116.7.249.34:88/Original.zip</string>
+    <plurals name="minutes">
+        <item quantity="one">minute</item>
+        <item quantity="other">minutes</item>
+    </plurals>
+</resources>
