@@ -56,6 +56,7 @@ public class MainActivity extends AppCompatActivity implements OnZoomListener {
         }
 //        mToolbar.inflateMenu(R.menu.menu_main);//该方法不能显示menu
         mToolbar.setOnMenuItemClickListener(onMenuItemClickListener);
+        // TODO: 22/03/2017 创建分支 
     }
 
 
